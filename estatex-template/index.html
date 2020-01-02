@@ -33,7 +33,10 @@
     <!-- Slicknav Css -->
     <link rel="stylesheet" href="assets/css/slicknav.css" type="text/css">
     <!-- Bootstrap Select -->
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">    
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css"> 
+
+    
+   
   </head>
 
   <body>  
@@ -717,52 +720,143 @@
             <h2 class="section-title">Search Properties</h2>            
           </div>  
           <!-- Start Search box -->
-          <div class="search-bar">
-            <div class="advanced-search">
-              <form class="search-form" method="get">
+            <div class="search-bar">
+              <div class="advanced-search">
+                <form class="search-form" method="get">
+                  <div class="col-md-3 col-sm-6 search-col">
+                    <div class="input-group-addon search-category-container">
+                      <!-- <label class="col-sm-2 col-form-label">Size </label> -->
+                          
+                          <input class="form-control" type="text" placeholder="Size in Square Ft.">
+                                                  
+                    
+                    </div>
+                  </div>
+
+                 
+                  <div class="col-md-3 col-sm-6 search-col">
+                    <div class="input-group-addon search-category-container">
+                        <!-- <label class="col-sm-2 col-form-label">Price</label> -->
+                          <input class="form-control" type="text" placeholder="Price in Rupees">
+                                                   
+                  
+                  </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 search-col">
+                        <div class="input-group-addon search-category-container">
+                            <!-- <label class="col-sm-2 col-form-label">Age of Property</label> -->
+                          
+                                <input class="form-control" type="text" placeholder="House Age in years">
+                        
+                        </div>
+                      </div>
+                
                 <div class="col-md-3 col-sm-6 search-col">
-                  <div class="input-group-addon search-category-container">
-                    <label class="select">
-                      <select class="dropdown-product selectpicker">
-                        <option value="0">All Actions</option>
-                        <option class="rentals">Rentals(15)</option>
-                        <option value="sales">Sales(17)</option>
-                      </select>                                    
-                    </label>
+                    <div class="input-group-addon search-category-container">
+                        <!-- <label class="col-sm-2 col-form-label">Distance from Park</label> -->
+                  
+                            <input class="form-control" type="text" placeholder="Distance from Park in Kilometers">
+                                     
+                  
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-6 search-col">
-                  <div class="input-group-addon search-category-container">
-                    <label class="styled-select location-select">
-                      <select class="dropdown-product selectpicker">
-                        <option value="0">All Types</option>
-                        <option value="apartments">Apartments (2)</option>
-                        <option value="condos">Condos (1)</option>
-                        <option value="houses">Houses (2)</option>
-                        <option value="industrial">Industrial (1)</option>
-                        <option value="land">Land (2)</option>
-                        <option value="offices">Offices (1)</option>
-                        <option value="retail">Retail (2)</option>
-                        <option value="villas">Villas (1)</option>
-                      </select>                                    
-                    </label>
+                    <div class="input-group-addon search-category-container">
+                        <!-- <label class="col-sm-2 col-form-label">Distance from Hospital</label> -->
+                    
+                            <input class="form-control" type="text" placeholder="Distance from Hospital in Kilometers">
+                                                
+                  
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-6 search-col">
-                  <div class="input-group-addon search-category-container">
-                    <label class="styled-select location-select">
-                      <select class="dropdown-product selectpicker">
-                        <option>All Cities</option>
-                        <option>New York</option>
-                        <option>California</option>
-                        <option>Washington</option>
-                        <option>Birmingham</option>
-                        <option>Chicago</option>
-                        <option>Phoenix</option>
-                      </select>                                    
-                    </label>
+                    <div class="input-group-addon search-category-container">
+                        <!-- <label class="col-sm-2 col-form-label">Distance from School</label> -->
+                        
+                            <input class="form-control" type="text" placeholder="Distance from School in Kilometers">
+                                              
+                  
                   </div>
                 </div>
+
+                <div class="col-md-3 col-sm-6 search-col">
+                    <div class="input-group-addon search-category-container">
+                        <!-- <label class="col-sm-2 col-form-label">Distance from Mosque</label> -->
+                      
+                            <input class="form-control" type="text" placeholder="Distance from Mosque in Kilometers">
+                                               
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 search-col">
+                    <div class="input-group-addon search-category-container">
+                        <!-- <label class="col-sm-2 col-form-label">Distance from a Market</label> -->
+                   
+                            <input class="form-control" type="text" placeholder="Distance from a Market in Kilometers">
+                                                      
+                  
+                  </div>
+                </div>
+                      <div class="col-md-3 col-sm-6 search-col">
+                          <div class="input-group-addon search-category-container">
+                              <!-- <label class="col-sm-2 col-form-label">Number of Floors</label> -->
+                           
+                                  <input class="form-control" type="text" placeholder="Number of Floors">
+                     
+                        </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 search-col">
+                      <div class="input-group-addon search-category-container">
+                          <!-- <label class="col-sm-2 col-form-label">Rooms for Servant</label> -->
+                      
+                              <input class="form-control" type="text" placeholder="Rooms for Servant i.e. 0,1 and 2">
+                                         
+                    
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-6 search-col">
+                    <div class="input-group-addon search-category-container">
+                      <label class="styled-select location-select"> 
+                        <select class="dropdown-product selectpicker">
+                          <option>With Basement</option>
+                          <option>Without Basement</option>
+                      
+                        </select>                                    
+                      </label>
+                    </div>
+                  </div> 
+                  <div class="col-md-3 col-sm-6 search-col">
+                      <div class="input-group-addon search-category-container">
+                        <label class="styled-select location-select"> 
+                          <select class="dropdown-product selectpicker">
+                            <option>With Garden</option>
+                            <option>Without Garden</option>
+                        
+                          </select>                                    
+                        </label>
+                      </div>
+                    </div>
+                            
+                  <div class="col-md-3 col-sm-6 search-col">
+                    <div class="input-group-addon search-category-container">
+                      <label class="styled-select location-select">
+                        <select class="dropdown-product selectpicker">
+                          <option>All Cities</option>
+                          <option>New York</option>
+                          <option>California</option>
+                          <option>Washington</option>
+                          <option>Birmingham</option>
+                          <option>Chicago</option>
+                          <option>Phoenix</option>
+                        </select>                                    
+                      </label>
+                    </div>
+                  </div>  
+                
+        
                 <div class="col-md-3 col-sm-6 search-col">
                   <div class="input-group-addon search-category-container">
                     <label class="styled-select location-select">
@@ -817,18 +911,6 @@
                     </label>
                   </div>
                 </div>
-                <div class="col-md-6 col-sm-6 search-col">
-                  <div class="input-group-addon search-category-container">
-                    <label class="styled-select location-select">
-                      <select class="dropdown-product selectpicker">
-                        <option>All Status</option>
-                        <option>Invest</option>
-                        <option>Sale</option>
-                      </select>                                    
-                    </label>
-                  </div>
-                </div>
-
               </form>
             </div>
           </div>
